@@ -1,0 +1,19 @@
+{
+  "name": "mickypary/facebook",
+  "description": "A social site like facebook",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "core/classes/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mickypary",
+      "email": "mikipary@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.6"
+  }
+}

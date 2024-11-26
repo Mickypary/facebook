@@ -1,0 +1,353 @@
+body {
+  font-family: roboto, sans-serif;
+  background-color: #e9ebee;
+  margin: 0;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.left-side {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  flex-basis: 50%;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  margin-top: 33px;
+}
+
+.sign-up-form {
+  margin-top: 10px;
+}
+
+.text-field {
+  height: 24px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.text-input {
+  height: 25px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 0.8rem;
+  width: 70%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.bday {
+  font-size: 19px;
+  color: #141823;
+  margin: 0.8rem 0 5px 0;
+}
+
+.select-body {
+  display: inline;
+  height: 30px;
+  font-size: 13px;
+  border: 1px solid #bdc7d8;
+  color: #141823;
+  border-radius: 5px;
+}
+
+.gender-wrap {
+  margin: 10px 0;
+}
+
+.term {
+  font-size: 12px;
+}
+
+input.sign-up {
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6a22 #3b6e22 #2c5115;
+  padding: 10px 50px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 14px 0;
+  color: white;
+  font-size: 18px;
+}
+
+.header {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 8px 15%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3e5c9a;
+  color: white;
+  height: 95px;
+  /* align-items: center; */
+}
+
+.logo {
+  margin: auto 0;
+  font-size: 40px;
+  flex-basis: 50%;
+}
+
+.sign-in-form {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-input {
+  margin-left: 10px;
+}
+
+.input-text {
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.input-text-field {
+  background-color: #faffbd;
+  border: none;
+  height: 20px;
+}
+
+.password-input {
+  margin-left: 1rem;
+  margin-top: 20px;
+  margin-right: 1rem;
+}
+
+.forgotten-acc {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #9cb4d8;
+  cursor: pointer;
+}
+
+input.sign-in.login {
+  height: 30%;
+  background-color: #4267bc;
+  color: white;
+  border: none;
+  box-shadow: 0 0 1px black;
+  margin-top: 18px;
+  padding: 5px;
+}
+
+/* ..................Top Bar ............................................ */
+.top-bar {
+  background-color: #4267b2;
+  height: 42px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-left-part {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 66px;
+}
+
+.profile-logo img {
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+}
+
+.profile-logo {
+  display: flex;
+}
+
+.search-wrap {
+  width: 60%;
+  display: flex;
+}
+
+input#main-search {
+  height: 22px;
+  border-radius: 3px;
+  box-shadow: none;
+  border: 0.5px solid gray;
+  width: 100%;
+}
+
+.s-icon {
+  background-color: white;
+  height: 23px;
+  margin: 1px 1px 1px -50px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.top-icon img {
+  height: 20px;
+  width: 20px;
+}
+
+.top-css {
+  font-family: roboto, Arial, sans-serif;
+  font-size: 12px;
+  color: white;
+  padding: 0 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.top-right-part {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-pic img {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+}
+
+.top-pic-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-left {
+  border-left: 0.5px solid rgba(2, 2, 2, 0.37);
+  height: 20px;
+}
+
+.request-svg:hover .cls-1 {
+  fill: white;
+}
+
+.message-svg:hover .cls-1 {
+  fill: white;
+}
+
+.notification-svg:hover .cls-1 {
+  fill: white;
+}
+
+.help-svg:hover .cls-1 {
+  fill: white;
+}
+
+.more-svg:hover .cls-1 {
+  fill: white;
+}
+
+/* .................profile cover ................................ */
+.main-area {
+  margin-left: 80px;
+  display: flex;
+}
+
+.profile-left-wrap {
+  flex-basis: 70%;
+}
+
+.profile-right-wrap {
+  flex-basis: 30%;
+}
+
+.profile-cover-wrap {
+  border-radius: 2px;
+  height: 200px;
+  background-size: 100%;
+  background-position: center;
+}
+
+.upload-cover-opt-wrap {
+  position: relative;
+}
+
+.add-cover-photo {
+  font-size: 13px;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 5px;
+  border: 1px solid white;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.add-cover-opt {
+  margin-left: 10px;
+  margin-top: -10px;
+  font-size: 13px;
+  position: absolute;
+  padding: 10px 32px;
+  box-shadow: 0 0 20px black;
+  background-color: white;
+  border-radius: 2px;
+  transition: 0.2s;
+  z-index: 1;
+  display: none;
+}
+
+.file-upload {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+label.file-upload-label {
+  display: block;
+  color: #000;
+  border-radius: 0.4em;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.file-upload-input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1px;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.select-cover-photo {
+  margin-bottom: 10px;
+}
+
+/* .................End profile cover ................................ */
